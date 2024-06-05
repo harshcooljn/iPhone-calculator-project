@@ -14,7 +14,7 @@ body{
 
 .calc-screen{
   z-index: 0;
-  background-color: rgb(3, 3, 3,0.95);
+  background-color: rgba(32, 30, 30, 0.95);
   border-radius: 44px;
   width: 291px;
   height: 600px;
@@ -28,7 +28,6 @@ body{
 
 .iphone-image{
   width: 300px;
-  z-index: 0;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -92,8 +91,8 @@ body{
 }
 
 .bottom-bar{
-  width: 39%;
-  margin-left: 30%;
+  width: 38%;
+  margin-left: 32%;
   margin-bottom: 7px;
   border: none;
   padding-top: 3px;
