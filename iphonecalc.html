@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iPhone Calculator</title>
+    <link rel="stylesheet" href="iphonecalc.css" />
+  </head>
+  <body>
+    <img src="imgs/iphone15plus.png" alt="iphone-image" class="iphone-image" />
+    <div class="outerbody">
+      <div class="calc-screen">
+        <div class="result-screen">
+          <div class="dot">.</div>
+          <div class="ans"></div>
+        </div>
+        <!-- 11 digits at max-->
+        <div class="buttons-screen">
+          <button class="num" onclick="number_press(1);">1</button>
+          <button class="num" onclick="number_press(2);">2</button>
+          <button class="num" onclick="number_press(3);">3</button>
+          <button class="num ops" onclick="number_press('+');">+</button>
+          <button class="num" onclick="number_press(4);">4</button>
+          <button class="num" onclick="number_press(5);">5</button>
+          <button class="num" onclick="number_press(6);">6</button>
+          <button class="num ops" onclick="number_press('-');">-</button>
+          <button class="num" onclick="number_press(7);">7</button>
+          <button class="num" onclick="number_press(8);">8</button>
+          <button class="num" onclick="number_press(9);">9</button>
+          <button class="num ops" onclick="number_press('*');">*</button>
+          <button class="num" onclick="number_press(0);">0</button>
+          <button class="num" onclick="number_press('.');">.</button>
+          <button class="num" onclick="equals();">=</button>
+          <button class="num ops" onclick="number_press('/');">/</button>
+          <button class="num clear" onclick="clearscreen();">Clear</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="iphonecalc.js"></script>
+  </body>
+</html>
